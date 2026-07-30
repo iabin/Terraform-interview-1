@@ -1,6 +1,6 @@
 # terraform-aws-backup
 
-Scenario 4 of the skills assessment. Scenarios 1 to 3 are answered in `answers.md`.
+Scenario 4 of the skills assessment. Scenarios 1 to 3 are answered below
 
 The module implements the validated backup design on AWS Backup: a plan with configurable frequency, retention and encryption, tag-based selection (`ToBackup=true` and `Owner`), cross-region copy from Frankfurt to Ireland, cross-account copy into the backup account (each copy with its own retention and KMS key), and Vault Lock (WORM) on the three vaults.
 
